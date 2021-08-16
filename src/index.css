@@ -97,6 +97,254 @@ h6 {
   text-transform: capitalize;
 }
 
+/* --------------------------------- Navbar ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Hero sEction  starts  
+                        -------------------------------------------------------*/
+header {
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-hero-container {
+  height: 80vh;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container h3 {
+  font-weight: lighter;
+}
+
+.input-group {
+  position: relative !important;
+}
+
+.form-control-text {
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.input-group-button {
+  position: absolute;
+  right: 51%;
+  top: 0.5rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 4rem;
+  width: 15%;
+  border-radius: 2rem !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+/* right side of hero section  */
+
+.main-herosection-images {
+  position: relative;
+}
+
+.main-herosection-images img {
+  width: 60%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  position: absolute;
+}
+
+.main-herosection-images .main-hero-img2 {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 55%;
+  top: -2%;
+  box-shadow: 0.8rem 0 0.8rem rgba(0, 0, 0, 0.25);
+}
+
+/* --------------------------------- Hero sEction  ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Work Section below hero section   starts  
+                        -------------------------------------------------------*/
+
+.work-container {
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -10rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.work-container .main-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+
+.work-container-subdiv {
+  padding: 0 6rem;
+}
+
+.work-container .sub-heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+/* --------------------------------- Work Section below hero section   ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- About Us Section STarts  
+                        -------------------------------------------------------*/
+.common-section {
+  margin: 5rem 0;
+}
+
+.our-services img {
+  width: 40%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+}
+
+.our-services .mini-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services .main-heading {
+  font-weight: bolder;
+}
+
+.our-services-info {
+  margin-top: 4rem;
+}
+
+.our-services .our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.our-services-data {
+  padding-left: 2rem;
+}
+
+.our-services .our-services-data p {
+  margin: 1rem 0;
+}
+
+/* 2nd section of about us  */
+
+.our-services-rightside {
+  margin-top: 10rem;
+}
+
+.our-services-rightside-content {
+  padding-left: 8rem;
+}
+
+/* --------------------------------- About Us Section ends  
+                        -------------------------------------------------------*/
+/* --------------------------------- Services Section starts  
+                        -------------------------------------------------------*/
+
+.service-main-container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.service-main-container .main-heading {
+  margin: 3rem 0;
+}
+
+.work-container-subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+
+.work-container-subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+
+.work-container-subdiv:hover > .fontawesome-style {
+  background-color: #fff;
+}
+
+.work-container-subdiv .main-hero-para {
+  width: 100%;
+}
+
+.service-main-container .work-container-subdiv .fontawesome-style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* --------------------------------- Services Section ends  
+                        -------------------------------------------------------*/
 /* --------------------------------- responsive media queries  
                         -------------------------------------------------------*/
 @media (min-width: 1500px) {

@@ -20,13 +20,14 @@ const Header = () => {
               <div className="input-group mt-3">
                 <input
                   type="text"
-                  className="rounded-pill w-75 me-3 p-2 form-control-text"
+                  className="rounded-pill w-50  w-lg-75 me-3 p-2 form-control-text"
+                  placeholder="Enter Your Email"
                 />
-                <div className="input-group-text">Get it now</div>
+                <div className="input-group-button">Get it now</div>
               </div>
             </div>
             {/*  --------------- main header right side--------------  */}
-            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
+            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
               <img
                 src="./images/hero1.jpg"
                 alt="heroimg"
@@ -35,7 +36,7 @@ const Header = () => {
               <img
                 src="./images/hero4.jpg"
                 alt="heroimg4"
-                className="img-fluid"
+                className="img-fluid main-hero-img2"
               />
             </div>
           </div>
