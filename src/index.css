@@ -345,6 +345,52 @@ header {
 
 /* --------------------------------- Services Section ends  
                         -------------------------------------------------------*/
+
+/* --------------------------------- Contact US Section starts  
+                        -------------------------------------------------------*/
+.contactus-section {
+  margin: 15rem 0;
+}
+
+.contact-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+}
+
+.contact-input-feild {
+  margin-bottom: 4rem;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+/* --------------------------------- Contact US Section ends  
+                        -------------------------------------------------------*/
 /* --------------------------------- responsive media queries  
                         -------------------------------------------------------*/
 @media (min-width: 1500px) {

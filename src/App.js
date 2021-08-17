@@ -4,6 +4,7 @@ import Header from "./Header";
 import HowItWorks from "./HowItWorks";
 import Aboutus from "./Aboutus";
 import Services from "./Services";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <HowItWorks />
       <Aboutus />
       <Services />
+      <Contact />
     </>
   );
 };
